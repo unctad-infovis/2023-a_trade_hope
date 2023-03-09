@@ -163,7 +163,7 @@ function App() {
         <p>Grain exports from Ukraine significantly picked up since the start of the Initiative. Total grain exports during the autumn months came close to levels of the previous year. However, they could not compensate for the trade slump during the first months of the war.</p>
         <p>
           Notably, for every tonne of wheat shipped from Ukraine to developing countries in 2022, there is a gap of two tonnes. The gap of 11.8 million tonnes is equivalent to the annual wheat food consumption of 175 million people, roughly the population of Bangladesh.
-          <sup title="According to FAO-AMIS, the world average per capita food use of wheat for the marketing season 2021/22 was 67 kg per year.">2</sup>
+          <sup title="According to FAO-AMIS, the world average per capita food use of wheat for the marketing season 2021/22 was 67 kg per year.">1</sup>
           {' '}
           For corn and barley, the export gap is as large as 41 per cent and 82 per cent, respectively, of the previous year’s level.
         </p>
@@ -195,7 +195,7 @@ function App() {
         <p>The Food and Agriculture Organization (FAO) reports that food prices are almost 18 per cent lower than their all-time high in March 2022, following the start of the war in Ukraine. This downward trend in prices was supported by the efforts of the Black Sea Grain Initiative.</p>
         <p>
           However, price levels are still high when compared to pre-war and pre-pandemic levels. Food prices in January 2023 were 45 per cent above the average over the past two decades. Furthermore, concerns persist for the stability of future food prices, which may be undermined by climatic factors, risk of market disruptions, export restrictions, high energy costs, and weakening global demand for food
-          <sup title="Vos R et al (2023). Is food price inflation really subsiding? IFPRI Blog.">2</sup>
+          <sup title="Vos R et al (2023). Is food price inflation really subsiding? IFPRI Blog.">3</sup>
           .
         </p>
       </div>
