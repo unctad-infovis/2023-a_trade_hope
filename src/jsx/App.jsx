@@ -61,13 +61,13 @@ function App() {
       // Introduction container
       }
       <div className="content_container">
-        <p><strong>The war in Ukraine sent shock waves throughout the global economy, in particular through trade disruptions of food and fertilizers from two of the world’s main breadbaskets, Ukraine and the Russian Federation. This left millions of people in developing and least developed countries at the frontline of a food and price crisis.</strong></p>
+        <p>The war in Ukraine sent shock waves throughout the global economy, in particular through trade disruptions of food and fertilizers from two of the world’s main breadbaskets, Ukraine and the Russian Federation. This left millions of people in developing and least developed countries at the frontline of a food and price crisis.</p>
         <p>In July 2022, two agreements were signed: one is the memorandum of understanding between the United Nations and the Russian Federation to facilitate the unimpeded access for their food and fertilizers exports to global markets. The second is the Black Sea Grain Initiative (BSGI), signed by the Russian Federation, Türkiye, Ukraine, and witnessed by the United Nations to allow the safe export of grain, fertilizers and other foodstuff from Ukrainian ports in the Black Sea.</p>
         <p>These agreements have helped to bring down the cost of food, stabilize global markets and keep them open.</p>
         <p>However, this progress is fragile and price pressures remain. While food prices have gone down from their all-time high at the start of the war, they remain high compared to pre-crises levels. Moreover, currency depreciations prevent many developing countries from benefiting from global price decreases, and, in the most severe cases, prices have even gone up. Additionally, as is so often the case, the most vulnerable bear the brunt, particularly women.</p>
         <p>The United Nations remains committed to both agreements, and to remove all remaining impediments that constrain access of food and fertilizers from the Russian Federation and Ukraine to global markets.</p>
         <p>This report concentrates on showing the benefits of one of the agreements, the Black Sea Grain Initiative, and its contribution to ease market pressures and avert the worst impacts of the food crisis.</p>
-        <p>The continuation and effective implementation of both agreements are vital for global food security.</p>
+        <p><strong>The continuation and effective implementation of both agreements are vital for global food security.</strong></p>
       </div>
       {
       // Section 1 container
@@ -143,7 +143,7 @@ function App() {
         <div className="heading_wrapper"><h3>Gaps still to be closed</h3></div>
       </div>
       <div className="content_container">
-        <p>The BSGI accounted for 60 per cent of total Ukrainian export volumes of corn, wheat and barley during the first four months of its operation. However, exports for the period January-November 2022 were 22% below 2021 levels.</p>
+        <p>The BSGI accounted for 60 per cent of total Ukrainian export volumes of corn, wheat and barley during the first four months of its operation. However, exports for the period January–November 2022 were 22% below 2021 levels.</p>
       </div>
       <div className="chart_container">
         <ChartContainer src="https://datawrapper.dwcdn.net/xA5Vv/" title="More than half of Ukrainian grain exports were supported by the Initiative since its signing" />
