@@ -396,15 +396,15 @@
       position: relative;
       .number {
         bottom: 0;
-        overflow: hidden;
         color: rgba(255, 255, 255, 0.85);
         font-size: 450px;
         font-weight: 700;
         left: -10px;
-        top: 0;
         line-height: 320px;
+        overflow: hidden;
         position: absolute;
         text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.5);
+        top: 0;
         @media all and (max-width: 550px) {
           display: none;
         }
@@ -416,9 +416,11 @@
     }
     &.section_banner_container_2 .section_banner {
       background-image: url('./../assets/img/2023-a_trade_hope_section2-min.jpg');
+      background-position: 50% 50%
     }
     &.section_banner_container_3 .section_banner {
       background-image: url('./../assets/img/2023-a_trade_hope_section3-min.jpg');
+      background-position: 50% 50%
     }
     .heading_wrapper {
       background-color: @unblue;
