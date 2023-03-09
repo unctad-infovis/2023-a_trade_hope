@@ -23,7 +23,7 @@
   .background {
     background-color: @unblue;
     background-image: url('./../assets/img/2023-a_trade_hope_cover-min.jpg');
-    background-position: 50% 40%;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
@@ -32,7 +32,8 @@
     position: relative;
     text-align: center;
     @media all and (min-width: 1000px) {
-
+    background-position: 50% 50%;
+      background-image: url('./../assets/img/2023-a_trade_hope_cover-min.png');
     }
     &.last_slide {
       background: @unblue;
@@ -208,9 +209,8 @@
       color: @unbluetext;
       font-family: "Roboto Condensed";
       font-size: 26px;
-      font-weight: 500;
       font-weight: 600;
-      letter-spacing: 0.05em;
+      margin-bottom: 20px;
       &.unctad {
         color: #fff;
         text-transform: uppercase;
@@ -395,18 +395,17 @@
       background-position: 50% 50%;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 300px;
+      height: 500px;
       position: relative;
       .number {
         bottom: 0;
-        color: rgba(255, 255, 255, 0.85);
-        font-size: 450px;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 710px;
         font-weight: 700;
         left: -10px;
-        line-height: 320px;
+        line-height: 525px;
         overflow: hidden;
         position: absolute;
-        text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.5);
         top: 0;
         @media all and (max-width: 550px) {
           display: none;
@@ -415,15 +414,15 @@
     }
     &.section_banner_container_1 .section_banner {
       background-image: url('./../assets/img/2023-a_trade_hope_section1-min.jpg');
-      background-position: 0% 80%
+      background-position: 0% 70%
     }
     &.section_banner_container_2 .section_banner {
       background-image: url('./../assets/img/2023-a_trade_hope_section2-min.jpg');
-      background-position: 50% 50%
+      background-position: 50% 20%
     }
     &.section_banner_container_3 .section_banner {
       background-image: url('./../assets/img/2023-a_trade_hope_section3-min.jpg');
-      background-position: 50% 50%
+      background-position: 50% 60%
     }
     .heading_wrapper {
       background-color: @unblue;
