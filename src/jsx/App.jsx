@@ -204,7 +204,11 @@ function App() {
       </div>
       <div className="content_container">
         <h4>Not all countries have benefitted from declining prices</h4>
-        <p>Exchange rates have had an impact on the affordability of goods in local markets. As reported by UNCTAD4, in 2022, as the US dollar appreciated in value, currencies in many developing countries depreciated. This currency depreciation increased import costs paid by developing countries, many of which rely heavily on imports for crucial products like cereals.</p>
+        <p>
+          Exchange rates have had an impact on the affordability of goods in local markets. As reported by UNCTAD
+          <sup title="UNCTAD (2022). A Double Burden: The effects of food price increases and currency depreciations on food import bills.">4</sup>
+          , in 2022, as the US dollar appreciated in value, currencies in many developing countries depreciated. This currency depreciation increased import costs paid by developing countries, many of which rely heavily on imports for crucial products like cereals.
+        </p>
         <p>One example that demonstrates this fact is the case of wheat. In a positive development, the international reference price of wheat has declined since October 2022. Yet in some cases, the cost of purchasing wheat in local currencies has increased during the same period. As a result, many of those living in poorer, import- dependent countries pay more for basic food items.</p>
       </div>
       <div className="chart_container">
@@ -214,12 +218,34 @@ function App() {
         <p>While most developing countries are paying lower prices when compared to the record highs seen in May 2022, currency depreciations have partly eroded the benefits of declining international prices. In some cases, depreciations have been so sharp that the wheat price in domestic currency surpasses record levels. This is the case, for instance, in Egypt, Suriname, South Sudan and Ghana.</p>
       </div>
       <div className="chart_container">
-        Figure 15
+        <h4>Currency depreciations reduce or even offset benefits from lower wheat prices</h4>
+        <h5>Change in wheat reference prices January 2023 compared to May 2022 peak, by currency</h5>
+        <img src={`${window.location.href.includes('unctad.org') ? 'https://storage.unctad.org/2023-a_trade_hope/assets/img/' : './assets/img/'}2023-a_trade_hope_figure15-min.png`} alt="urrency depreciations reduce or even offset benefits from lower wheat prices" />
+        <h6>
+          <em>Source:</em>
+          {' '}
+          <span>Refinitiv- Eikon and World Bank’s Pink Sheet (February 2023)</span>
+        </h6>
+        <h6>
+          <em>Note:</em>
+          {' '}
+          <span>Countries in bold are least developed countries (9). The selected countries depicted in the graph are those for which exchange rate movements offset more than 25% of the decline in US dollar-denominated wheat prices.</span>
+        </h6>
       </div>
+
       <div className="content_container">
         <h4>Women bear the brunt of the impact</h4>
-        <p>The World Food Programme, and Food and Agriculture Organization5 warn that acute food insecurity is escalating, affecting as many as 828 million people worldwide. LDCs are disproportionately at risk of food insecurity, with several countries facing complex and prolonged humanitarian crises. They are in need of emergency intervention to avert the imminent risk of starvation. Trade in staple food items forms a key component of this emergency response.</p>
-        <p>Moreover, the “cost of living crisis” tends to have a harsh effect on the poorest and most vulnerable segments of the population. It widens inequalities not only between countries but also within. As poorer households spend a relatively larger share of their income on necessary goods like food, they tend to be more adversely affected by high food inflation. Globally and regionally, the prevalence of food insecurity has been historically higher among women than men6, and the gender gap has widened since 2019. There is a serious concern that women and children might suffer disproportionately from high food prices.</p>
+        <p>
+          The World Food Programme, and Food and Agriculture Organization
+          <sup title="WFP and FAO. 2022. Hunger Hotspots. FAO WFP early warnings on acute food insecurity: October 2022 to January 2023 Outlook.">5</sup>
+          {' '}
+          warn that acute food insecurity is escalating, affecting as many as 828 million people worldwide. LDCs are disproportionately at risk of food insecurity, with several countries facing complex and prolonged humanitarian crises. They are in need of emergency intervention to avert the imminent risk of starvation. Trade in staple food items forms a key component of this emergency response.
+        </p>
+        <p>
+          Moreover, the “cost of living crisis” tends to have a harsh effect on the poorest and most vulnerable segments of the population. It widens inequalities not only between countries but also within. As poorer households spend a relatively larger share of their income on necessary goods like food, they tend to be more adversely affected by high food inflation. Globally and regionally, the prevalence of food insecurity has been historically higher among women than men
+          <sup title="UN Women (2022). Global Gendered Impacts of the Ukraine Crisis on Energy Access and Food Security and Nutrition.">6</sup>
+          , and the gender gap has widened since 2019. There is a serious concern that women and children might suffer disproportionately from high food prices.
+        </p>
         <p>With limited resources to cushion any temporary shock, poorer households are more likely to resort to coping strategies that create adverse long-term effects on living standards. This is the case, for example, when prolonged food insecurity permanently affects the health or strength of children, or when poor parents are forced to take their kids out of school to cope with lower income. Consequently, households’ future income prospects are lower, potentially turning a temporary shock (so-called “transient poverty”) into a longer-term phenomenon.</p>
       </div>
       <div className="chart_container">
